@@ -16,4 +16,6 @@ Learn to Vue Router 2
     
     * [命名路由](./notes/05.basic.named-routes.md)
     
+    * [命名视图](./notes/06.basic.named-views.md)
+    
 3. 进阶
