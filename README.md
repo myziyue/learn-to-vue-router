@@ -23,3 +23,15 @@ Learn to Vue Router 2
     * [HTML5 History 模式](./notes/08.basic.history-mode.md)
     
 3. 进阶
+
+    * [导航钩子](./notes/09.advanced.navigation-guards.md)
+    
+    * [路由元信息](./notes/10.advanced.meta.md)
+    
+    * [过渡动效](./notes/11.advanced.transitions.md)
+    
+    * [数据获取](./notes/12.advanced.data-fetching.md)
+    
+    * [滚动行为](./notes/13.advanced.scroll-behavior.md)
+    
+    * [懒加载](./notes/14.advanced.lazy-loading.md)
