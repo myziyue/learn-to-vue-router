@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>命名路由</title>
+    <script src="../vue/vue.js"></script>
+    <script src="../vue/vue-router.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <h1>Hello App!</h1>
+    <p>
+        <!-- 使用 router-link 组件来导航. -->
+        <!-- 通过传入 `to` 属性指定链接. -->
+        <!-- <router-link> 默认会被渲染成一个 `<a>` 标签 -->
+        <router-link :to="{ name: 'user', params: { userId: 123 }}">User 123</router-link>
+    </p>
+    <!-- 路由出口 -->
+    <!-- 路由匹配到的组件将渲染在这里 -->
+    <router-view></router-view>
+</div>
+
+<script>
+    const User = {
+        template: '<div>User id : {{ $route.params.userId }}</div>'
+    }
+
+    const router = new VueRouter({
+        routes: [
+            {
+                path: '/user/:userId',
+                name: 'user',
+                component: User
+            }
+        ]
+    })
+
+    router.push({ name: 'user', params: { userId: 456 }})
+
+    const app = new Vue({
+        router
+    }).$mount('#app')
+</script>
+
+</body>
+</html>
