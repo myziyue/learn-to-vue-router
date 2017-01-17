@@ -20,4 +20,6 @@ Learn to Vue Router 2
     
     * [重定向 和 别名](./notes/07.basic.redirect-and-alias.md)
     
+    * [HTML5 History 模式](./notes/08.basic.history-mode.md)
+    
 3. 进阶
