@@ -18,4 +18,6 @@ Learn to Vue Router 2
     
     * [命名视图](./notes/06.basic.named-views.md)
     
+    * [重定向 和 别名](./notes/07.basic.redirect-and-alias.md)
+    
 3. 进阶
